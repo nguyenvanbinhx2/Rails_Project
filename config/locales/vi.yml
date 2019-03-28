@@ -1,0 +1,18 @@
+vi:
+  static_pages:
+    home:
+      title_home: "Trang chủ"
+      thishome: "Đây là link c"
+      thisapp: "ứng dụng đơn giản"
+    about:
+      title_about: "Liên hệ"
+      about_isa: "là một"
+      about_and: "và"
+      about_to: "để dạy lập trình web với"
+      about_tut: "Đây là khóa lập trình với ứng dụng đơn giản ."
+    help:
+      title_help: "H"
+      help_how: "Để nhận giúp đỡ với tut ruby on rails thì"
+      help_see: "Để nhân giúp đỡ về ứng dụng sample app, thì b "
+      help_book: "s"
+
