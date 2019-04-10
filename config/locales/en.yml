@@ -57,3 +57,18 @@ en:
       title: "User"
       content_html: '<h1>Sign up</h1>
           <p>This will be a sign up page for new users.</p>'
+      submit: "Create my account"
+      sucess: "Welcome to Sample App"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit_button: "Submit"
+  activerecord:
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        confirmation: "Confirmation"
+        submit_button: "Create my account"
