@@ -41,8 +41,12 @@ en:
       page_title: " Ruby on Rails Sample App"
     _header:
       home: "Home"
-      login: "Login"
+      login_h: "Login"
       help: "Help"
+      users: "Users"
+      logout: "Logout"
+      profile: "Profile"
+      setting: "Setting"
     _footer:
       about: "About"
       contact: "Contact"
@@ -72,3 +76,13 @@ en:
         password: "Password"
         confirmation: "Confirmation"
         submit_button: "Create my account"
+  shared:
+    _error_messages:
+        error: "Error!"
+  sessions:
+      new:
+        login: "Login"
+        new: "New User?"
+  controller:
+    sessions:
+      wrongmail_password: "Invalid email or password combination!"

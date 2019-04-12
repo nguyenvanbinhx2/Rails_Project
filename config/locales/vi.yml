@@ -34,8 +34,12 @@ vi:
       page_title: " Sản phẩm mẫu của Ruby on Rails"
     _header:
       home: "Trang chủ"
-      login: "Đăng nhập"
+      login_h: "Đăng nhập"
       help: "Giúp đỡ"
+      users: "Tài khoản"
+      logout: "Đăng xuất"
+      profile: "Thông tin cá nhân"
+      setting: "Cài đặt"
     _footer:
       about: "Về chúng tôi"
       contact: "Liên hệ"
@@ -65,3 +69,10 @@ vi:
         password: "Mật khẩu"
         confirmation: "Nhập lại mật khẩu"
         submit_button: "Ấn để đăng kí"
+  session:
+    new:
+      login: "Đăng nhập"
+      new: "Chưa có tài khoản?"
+  controller:
+    sessions:
+      wrongmail_password: "Không tồn tài khoản hoặc mặt khẩu không đúng"
