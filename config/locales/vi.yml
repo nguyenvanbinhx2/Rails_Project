@@ -49,5 +49,19 @@ vi:
       title: "Tài khoản"
       content_html:
         '<p>Trang đăng kí tài khoản</p>'
+      name: "Tài khoản"
+      email: "Email của bản"
+      password: "Mật khẩu"
+      confirmation: "Nhập lại mật khẩu"
+      submit_button: "Đăng kí"
 
-
+      submit: "Tạo tài khoản"
+      sucess: "Chào mừng đến với Sample App"
+  activerecord:
+    atttributes:
+      user:
+        name: "Tài khoản"
+        email: "Email của bnạ"
+        password: "Mật khẩu"
+        confirmation: "Nhập lại mật khẩu"
+        submit_button: "Ấn để đăng kí"

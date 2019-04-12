@@ -21,6 +21,7 @@ AllCops:
     - 'config/**/*'
     - 'Rakefile'
     - 'config.ru'
+    - 'config/*'
 
 # Indent private/protected/public as deep as method definitions
 Layout/AccessModifierIndentation:
@@ -278,7 +279,7 @@ Style/LambdaCall:
     - braces
 
 Metrics/LineLength:
-  Max: 80
+  Max: 90
   AllowURI: true
   Exclude:
     - config/routes.rb
