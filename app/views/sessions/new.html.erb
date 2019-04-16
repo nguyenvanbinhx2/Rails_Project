@@ -1,0 +1,18 @@
+<% provide :title , t "session.new.login" %>
+<h1><% t "session.new.login" %></h1>
+<div class = "row">
+  <div class = "col-md-6 col-md-offset-3">
+    <%= form_with session, url login_path do |f| %>
+      <%= f.label :email, t "users.new.email" %>
+      <%= f.email_field :email, class: "form-control" %>
+      <%= f.label :password, t "users.new.password" %>
+      <%= f.password_field :password, class: "form-control" %>
+
+      <%= f.submit t "users.new.submit_button",class: "btn btn-primary" %>
+      <% end %>
+  </div>
+  <p>
+    <%= t "session.new.new" %>
+    <%= link to t "static_pages.home.signup", signup_path %>
+  </p>
+</div>
