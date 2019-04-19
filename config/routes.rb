@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/ do
     resource :users
+    resources :microposts, only: [:create, :destroy]
     root "static_pages#home"
     get  "/help", to: "static_pages#help"
     get  "/about", to: "static_pages#about"

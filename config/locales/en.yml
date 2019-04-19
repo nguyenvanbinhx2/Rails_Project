@@ -80,7 +80,13 @@ en:
         submit_button: "Create my account"
   shared:
     _error_messages:
-        error: "Error!"
+      error: "Error!"
+      contain: "The form contain"
+    _micropost:
+      post: "Post"
+      form: "Compose new micropost"
+    _user_info:
+      view: "View my profile"
   sessions:
       new:
         login: "Login"
@@ -105,3 +111,11 @@ en:
       index:
         page_name: "Index"
         page_title: "Danh sách người dùng"
+  microposts:
+    _microposts:
+      posted: "Posted"
+      ago: "Ago"
+      delete: "Delete"
+      confirm_del: "Confirm Delete"
+    controller:
+      image_size_content: "should be less than 5MB"

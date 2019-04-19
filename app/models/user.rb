@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 
   attr_reader :remember_token
@@ -28,7 +29,7 @@ class User < ApplicationRecord
 
   def remeber
     self.remember_token = User.new_token
-    update_attribute(:remember_digest, User.digest(remember_token))
+    update remember_digest :User.digest(remember_token)
   end
 
   def authenticated? remember_token
@@ -43,6 +44,7 @@ class User < ApplicationRecord
   def current_user? user
     self == user
   end
+
   private
   def email_downcase
     email.downcase!
