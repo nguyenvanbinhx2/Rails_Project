@@ -2,4 +2,7 @@ name_max_length: 50
 email_max_length: 255
 password_min_length: 8
 garavatar:
-  size: 30
+  size: 60
+  list_size: 50
+per_page_count: 15
+remember_yes: 1

@@ -48,6 +48,9 @@ vi:
           <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
                       viết bởi <a href="http://www.michaelhartl.com/">Michael Hartl</a>
         </small>'
+  sesions:
+    new:
+      remember_me: "Lưu tài khoản"
   users:
     new:
       title: "Tài khoản"
@@ -58,9 +61,9 @@ vi:
       password: "Mật khẩu"
       confirmation: "Nhập lại mật khẩu"
       submit_button: "Đăng kí"
-
       submit: "Tạo tài khoản"
       sucess: "Chào mừng đến với Sample App"
+      edit: "Sửa tài khoản"
   activerecord:
     atttributes:
       user:
@@ -70,9 +73,27 @@ vi:
         confirmation: "Nhập lại mật khẩu"
         submit_button: "Ấn để đăng kí"
   session:
-    new:
+    new:cha
       login: "Đăng nhập"
       new: "Chưa có tài khoản?"
   controller:
     sessions:
       wrongmail_password: "Không tồn tài khoản hoặc mặt khẩu không đúng"
+    user:
+      create:
+        message:
+          sucess: "Chào mừng đến với Sample App !"
+      update:
+        message:
+          sucess: "Cập nhật thành công thông tin của bạn"
+      not_login: "Chưa đăng nhập !"
+      user_deleted: "Xóa tài khoản thành công"
+      show:
+        not_found: "Không tìm thấy tài khoản !"
+      edit:
+        page_name: "Cập nhật"
+        page_title: "Cập nhật thông tin của bạn"
+      index:
+        page_name: "Danh sách"
+        page_title: "Danh sách người dùng"
+
