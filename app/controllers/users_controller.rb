@@ -5,6 +5,10 @@ class UsersController < ApplicationController
   before_action :correct_user, only: [:edit, :update]
   def show
     @user = User.find(params[:id])
+    @follow = current_user.active_relationships.build
+    @unfollow = current_user.active_relationships.find_by followed_id: @user.id
+    @microposts = @user.microposts.paginate(page: params[:page],
+                                            per_page: Settings.post.num_post)
   end
 
   def index
