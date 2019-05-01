@@ -70,6 +70,9 @@ en:
       confirmation: "Confirmation"
       submit_button: "Submit"
       edit: "Edit User"
+    show_follow:
+      view_my_profile: "view my profile"
+      micropost: "Microposts"
   activerecord:
     attributes:
       user:
@@ -119,3 +122,18 @@ en:
       confirm_del: "Confirm Delete"
     controller:
       image_size_content: "should be less than 5MB"
+  relationships:
+    stats:
+      following:
+        one: "1 Following"
+        other: "%{count} Following"
+      followers:
+        one: "1 Follower"
+        other: "%{count} Follower"
+    form:
+      follow:
+        submit: "Follow"
+      unfollow:
+        submit: "Unfollow"
+    following: "following"
+    follower: "follower"

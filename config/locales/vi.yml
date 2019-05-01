@@ -64,6 +64,9 @@ vi:
       submit: "Tạo tài khoản"
       sucess: "Chào mừng đến với Sample App"
       edit: "Sửa tài khoản"
+    show_follow:
+      view_my_profile: "Xem thông tin của bạn"
+      micropost: "Bảng tin"
   activerecord:
     atttributes:
       user:
@@ -82,7 +85,7 @@ vi:
     _user_info:
       view: "Xem hồ sơ của t"
   session:
-    new:cha
+    new:
       login: "Đăng nhập"
       new: "Chưa có tài khoản?"
   controller:
@@ -113,4 +116,19 @@ vi:
       confirm_del: "Xác Nhận Xóa"
     c:
       image_size_content: "nên nhỏ hơn 5Mb"
+  relationships:
+    stats:
+      following:
+        one: "1 Người đang theo dõi"
+        other: "%{count} đang theo dõi"
+      followers:
+        one: "1 Người theo dõi"
+        other: "%{count} theo dõi"
+    form:
+      follow:
+        submit: "Theo dõi"
+      unfollow:
+        submit: "Bỏ theo dõi"
+    following: "Đang theo dõi"
+    follower: "Theo dõi"
 
