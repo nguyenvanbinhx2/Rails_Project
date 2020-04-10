@@ -12,7 +12,7 @@ gem "i18n"
 gem "jbuilder", "~> 2.5"
 gem "mini_magick", "4.7.0"
 gem "parser"
-gem "puma", "~> 3.11"
+gem "puma", "~> 3.12"
 gem "rails", "~> 5.2.2", ">= 5.2.2.1"
 gem "rubocop", "~> 0.54.0", require: false
 gem "sass-rails", "~> 5.0"
