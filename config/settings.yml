@@ -6,3 +6,11 @@ garavatar:
   list_size: 50
 per_page_count: 15
 remember_yes: 1
+maximum_length_content: 40
+post:
+  num_post: 5
+  image_size: 5
+  resize_height: 400
+  resize_width: 400
+  content_size: 140
+  avatar_size: 50

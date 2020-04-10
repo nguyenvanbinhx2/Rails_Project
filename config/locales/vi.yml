@@ -72,6 +72,15 @@ vi:
         password: "Mật khẩu"
         confirmation: "Nhập lại mật khẩu"
         submit_button: "Ấn để đăng kí"
+  shared:
+    _error_messages:
+      error: "Lỗi!"
+      contain: "Form chứa"
+    _micropost:
+      post: "Đăng"
+      form: "Soạn bài viết m"
+    _user_info:
+      view: "Xem hồ sơ của t"
   session:
     new:cha
       login: "Đăng nhập"
@@ -96,4 +105,12 @@ vi:
       index:
         page_name: "Danh sách"
         page_title: "Danh sách người dùng"
+  microposts:
+    _microposts:
+      posted: "Đã post"
+      ago: "Trước đó"
+      delete: "Xóa"
+      confirm_del: "Xác Nhận Xóa"
+    c:
+      image_size_content: "nên nhỏ hơn 5Mb"
 
